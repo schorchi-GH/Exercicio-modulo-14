@@ -1,0 +1,56 @@
+.service-card {
+    display: flex; /* Make the service card a flex container */
+    flex-direction: column; /* Stack the flex items from top to bottom */
+    justify-content: space-between; /* Space between items, pushes the button down */
+    height: 100%; /* Full height of the container */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.01)
+}
+
+.section-title {
+    font-size: 2rem; /* Adjust the size as needed */
+}
+
+.custom-red-button {
+    background-color: #e60000;
+    color: #ffffff;
+    border: none;
+}
+
+.custom-red-button:hover {
+    background-color: #b80505;
+    color: #ffffff;
+}
+
+#carousel, #history, #contact {
+    background-color: #d2cfcf; /* Light gray background */
+}
+
+.custom-color {
+    color: #e60000; /* Replace with your desired color */
+}
+
+.testimonial-text {
+    font-size: 2rem; /* Adjust this value as needed */
+}
+
+.history-image {
+    max-width: 300px; 
+    height: auto;
+}
+
+.social-icon {
+    font-size: 4rem; /* Adjust this value as needed */
+}
+
+@media (max-width: 768px) {
+    .history-image {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}
